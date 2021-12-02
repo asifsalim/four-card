@@ -14,5 +14,129 @@ html {
 }
 
 body {
-  background-color: #f8f9fa;
+  background-color: #fafafa;
+  font-family: 'Poppins', sans-serif;
+  padding: 2rem;
+}
+
+.primary-header-light {
+  font-size: 3rem;
+  font-weight: 200;
+  color: #6c757d;
+}
+
+.primary-header-bold {
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.text {
+  font-size: 1.6rem;
+  font-weight: 300;
+  width: 35rem;
+  color: #a3a5ae;
+}
+
+@media (max-width: 50rem) {
+  .text {
+    width: 100%;
+  }
+}
+
+.border-cyan {
+  border-top: 4px solid #45d3d3;
+}
+
+.border-red {
+  border-top: 4px solid #ea5353;
+}
+
+.border-yellow {
+  border-top: 4px solid #fcaf4a;
+}
+
+.border-blue {
+  border-top: 4px solid #549ef2;
+}
+
+.header {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 77rem) {
+  .row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.card-box {
+  margin-top: 5rem;
+}
+
+.card {
+  width: 25rem;
+  border-radius: 5px;
+  overflow: hidden;
+  height: auto;
+  background-color: #fafafa;
+  box-shadow: 0px 5px 13px 2px rgba(117, 107, 107, 0.32);
+  -webkit-box-shadow: 0px 5px 13px 2px rgba(117, 107, 107, 0.32);
+  -moz-box-shadow: 0px 5px 13px 2px rgba(117, 107, 107, 0.32);
+  margin: 0 1rem;
+}
+
+.card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4c4e61;
+}
+
+.card-subtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-align: left;
+  padding-top: 1rem;
+  color: #a3a5ae;
+}
+
+.img-fluid {
+  width: 25%;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  padding: 2rem 0;
 }

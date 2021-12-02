@@ -4,10 +4,77 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/main.css">
-  <title>Document</title>
+  <title>Four Card</title>
 </head>
 <body>
-Welcome To My Starter Site
+  <!-- header group section -->
+<section class="header">
+  <div class="text-group">
+    <!-- top header -->
+    <h1 class="primary-header-light">Reliable, efficient delivery</h1>
+    <!-- middle header -->
+    <h1 class="primary-header-bold">Powered by Technology</h1>
+    <!-- bottom header -->
+    <p class="text">Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful</p>
+  </div>
+</section>
+<!-- cards container -->
+<section class="card-box">
+  <div class="container">
+    <!-- section divided into three -->
+    <div class="row justify-content-md-center">
+      <!-- card number 1 -->
+      <div class="col align-self-center">
+        <div class="card border-cyan">
+          <div class="card-body">
+            <h5 class="card-title">Supervisor</h5>
+            <h6 class="card-subtitle mb-2">Monitors activity to identity project roadblocks</h6>
+            <img src="css/images/icon-supervisor.svg" alt="supervisor" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <!-- card number 2 group -->
+      <div class="col">
+        <!-- card number 2 top -->
+        <div class="col my-5">
+          <div class="card border-red">
+            <div class="card-body">
+              <h5 class="card-title">Team Builder</h5>
+              <h6 class="card-subtitle mb-2">Scans our talent network to create the optimal team for your project</h6>
+              <img src="css/images/icon-team-builder.svg" alt="team" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <!-- card number 2 bottom -->
+        <div class="col my-5">
+          <div class="card border-yellow">
+            <div class="card-body">
+              <h5 class="card-title">Karma</h5>
+              <h6 class="card-subtitle mb-2 ">Regularly evaluated our talent to ensure quality</h6>
+              <img src="css/images/icon-karma.svg" alt="karma" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card number 3 -->
+      <div class="col align-self-center">
+        <div class="card border-blue">
+          <div class="card-body">
+            <h5 class="card-title">Calculator</h5>
+            <h6 class="card-subtitle mb-2">Uses data from past projects to provide better delivery estimates</h6>
+            <img src="css/images/icon-calculator.svg" alt="calculator" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 </body>
 </html>

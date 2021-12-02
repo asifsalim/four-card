@@ -1,0 +1,54 @@
+// card container
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+@media (max-width:77rem){
+
+    .row{
+        flex-direction:column;
+    }
+}
+// card container margin
+.card-box{
+    margin-top: 5rem;
+}
+// single card layout
+.card{
+    width: 25rem;
+    border-radius: 5px;
+    overflow: hidden;
+    height: auto;
+    background-color: $color-body-background;
+    box-shadow: 0px 5px 13px 2px rgba(117,107,107,0.32);
+-webkit-box-shadow: 0px 5px 13px 2px rgba(117,107,107,0.32);
+-moz-box-shadow: 0px 5px 13px 2px rgba(117,107,107,0.32);
+    margin: 0 1rem;
+
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+.card-title{
+    font-size: 2rem;
+    font-weight: 600;
+    color: $color-font-title;
+}
+.card-subtitle{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: left;
+    padding-top:1rem;
+    color: $color-font-text;
+}
+// card image design
+.img-fluid{
+    width: 25%;
+    align-self: end;
+    padding: 2rem 0;
+}

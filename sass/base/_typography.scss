@@ -1,0 +1,23 @@
+// top header
+.primary-header-light{
+    font-size: 3rem;
+    font-weight: 200;
+    color: $color-font-header;
+}
+// middle header
+.primary-header-bold{
+    font-weight: 600;
+    color: $color-font-title;
+}
+// bottom header
+.text{
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 35rem;
+    color: $color-font-text;
+
+    @media (max-width:50rem){
+        width: 100%;
+    }
+
+}

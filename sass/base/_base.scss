@@ -11,5 +11,7 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: #f8f9fa;
+    background-color: $color-body-background;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
 }
